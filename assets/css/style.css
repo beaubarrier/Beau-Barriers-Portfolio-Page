@@ -1,0 +1,279 @@
+:root {
+    --red: #FF3720;
+    --fuchia: #FF2E8C;
+    --purple: #FC4DFF;
+    --orange: #FF9720;
+    --yellow: #F7EF00;
+    --green: #8DD300;
+    --turqoise: #58FFEC;
+    --blue: #1379da;
+    --gray: #9b9b9b;
+    --darkgray: #808080;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+  background-color:black;
+  
+}
+ h1 {
+  font-family:'Courier New', Courier, monospace;
+  display: inline-block;
+  color: white;
+  padding-left: 20px;
+
+}
+
+  header {
+   
+    margin-right: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    
+   }
+
+   .header div {
+     float:right;
+   }
+   .header div ul li { 
+            
+    padding-top: 15px;
+    margin-right: 20px;
+    display:inline-block;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .game{
+    display: flex;
+    text-transform: flex;
+    background-size: 50vw;
+    }
+
+
+
+  .img1{                   
+    width:50vw;         
+    height:3;
+    max-height: 212px;
+  max-width: 412px;
+  }
+  .img2{
+  
+    width:70w;         
+    height:40vw;
+    max-height: 222px;
+    max-width: 555px;
+  }
+}
+
+.img1{                   
+  width:50vw;          
+  height:3;
+  max-height: 212px;
+  max-width: 412px;
+}
+
+.img2{
+  width:60vw;         
+   height:10; 
+  max-height: 222px;
+  max-width: 555px;
+  margin-top:30px;
+}
+
+p {
+  margin-top: 5vw;  
+  margin-left:3vw;
+  font-size: 3vw; 
+  word-wrap: none;
+  text-align: center;
+}
+a {
+  cursor:crosshair;
+  text-decoration:none;
+  color: var(--fuchia);
+  
+
+}  
+  
+  
+}
+.p1{
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  
+}
+
+.float-left {
+ 
+  float: left;
+  
+}
+
+
+
+.float-right {
+  display:flex;
+  float: right;
+
+
+}
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+button {
+  display:inline-flex;
+  text-align:start;
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 100%;
+  height: 100px;
+  border: 0;
+  cursor: pointer;
+  font-size: 2rem;
+  background-size: 100%;
+  background-color: black;
+  opacity:45%;
+  color: white;
+}
+button:hover {
+  opacity: 100%;
+  
+ }
+ 
+
+form{
+  display:inline-flex;
+  text-align:start;
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 45%;
+  height: 100px;
+  border: 0;
+  cursor: pointer;
+  font-size: 2rem;
+  background-size: 100%;
+  background-color: black;
+  
+  color: white;
+}
+
+.section1{
+  width: 250px;
+  height: 100px;
+ 
+}
+
+.button1{
+background-image: url("../images/game1.png");
+background-size: cover;
+background-position: center;
+
+
+}
+
+
+.button2{
+  background-image: url("../images/website.png");
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.button3{
+  background-image: url("../images/github1.png");
+  background-size: cover;
+  background-position: center;
+}
+  
+.button4{
+  background-image: url("../images/bearz.jpg");
+  background-size: cover;
+  background-position: center;
+}   
+.txt{
+  background-color:black;
+  height: 30px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+  
+}
+
+.boxboy{
+  display: flex;
+  width:100%;
+  height: 300px;
+  background-color: var(--gray);
+  margin-top:100px;
+  margin-bottom:100px;
+  word-wrap: break-word;
+  padding: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  word-wrap:normal;
+
+}
+
+.bigboxboy{
+  display: flex;
+  width:100%;
+  height:400px;
+  background-color: var(--gray);
+  margin-top:100px;
+  margin-bottom:100px;
+  word-wrap: break-word;
+  padding: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  word-wrap:normal;
+
+}
+
+.whitetxt{
+  color:white;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left:100px;
+  margin-right:100px;
+ word-wrap:break-word;
+ margin-bottom:50px;
+}
+
+.contactinfo{
+  color:white;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left:100px;
+  margin-right:100px;
+ word-wrap:break-word;
+ margin-bottom:50px;
+  
+}
+  .contactinfo ul{
+  
+    list-style:linear-gradient(black,red);
+    margin-bottom: 50px;
+}
+
+footer{
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:50px;
+
+}
