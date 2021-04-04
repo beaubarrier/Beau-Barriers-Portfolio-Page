@@ -1,4 +1,4 @@
-:root {
+:root {  /*This is a collection of variables for colors.*/
     --red: #FF3720;
     --fuchia: #FF2E8C;
     --purple: #FC4DFF;
@@ -41,7 +41,7 @@ body{
    .header div {
      float:right;
    }
-   .header div ul li { 
+   .header div ul li {  /*This sets the properties of the navigation links in top right. */
             
     padding-top: 15px;
     margin-right: 20px;
@@ -52,20 +52,18 @@ body{
     margin-left: 25px;
 }
 
-@media screen and (max-width: 800px) {
-  .game{
+@media screen and (max-width: 800px) {  /* This will change attributes when the screen size is changed. */
+  .game{ 
     display: flex;
     text-transform: flex;
     background-size: 50vw;
     }
 
-
-
   .img1{                   
     width:50vw;         
     height:3;
     max-height: 212px;
-  max-width: 412px;
+    max-width: 412px;
   }
   .img2{
   
@@ -102,8 +100,6 @@ a {
   cursor:crosshair;
   text-decoration:none;
   color: var(--fuchia);
-  
-
 }  
   
   
@@ -112,30 +108,11 @@ a {
   color:white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  
-}
-
-.float-left {
- 
-  float: left;
-  
-}
-
-
-
-.float-right {
-  display:flex;
-  float: right;
-
+  }
 
 }
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
 
-button {
+button {     /*This sets the properties of the image buttons that navigate to the related section. */
   display:inline-flex;
   text-align:start;
   margin-left: 3%;
@@ -156,7 +133,7 @@ button:hover {
  }
  
 
-form{
+form{ /*Sets the properties of all forms. */
   display:inline-flex;
   text-align:start;
   margin-left: 3%;
@@ -172,28 +149,17 @@ form{
   color: white;
 }
 
-.section1{
-  width: 250px;
-  height: 100px;
- 
-}
-
 .button1{
 background-image: url("../images/game1.png");
 background-size: cover;
 background-position: center;
-
-
 }
-
 
 .button2{
   background-image: url("../images/website.png");
   background-size: cover;
   background-position: center;
-  
-  
-}
+  }
 
 .button3{
   background-image: url("../images/github1.png");
@@ -206,13 +172,13 @@ background-position: center;
   background-size: cover;
   background-position: center;
 }   
+
 .txt{
   background-color:black;
   height: 30px;
   font-family:'Courier New', Courier, monospace;
   font-size: 25px;
-  
-}
+  }
 
 .boxboy{
   display: flex;
@@ -242,7 +208,7 @@ background-position: center;
 
 }
 
-.whitetxt{
+.whitetxt{  /*This sets the properties for the 'about me' section. */
   color:white;
   font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
