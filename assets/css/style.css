@@ -16,28 +16,6 @@ textarea {
 
 } */
 
-.contentBG {
-    display:none;
-    position: absolute;
-    width: 567px;
-    height: 405px;
-    left: 125px;
-    top: 123px;
-    background: #EDEDED;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-#pageBackground {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 799px;
-    height: 646px;
-    margin: auto;
-    background: #EBE2E2;
-    opacity: 0.9;
-    box-shadow: inset 0px -3px -3px rgba(0, 0, 0, 0.25);
-}
 
 #myName {
 position: absolute;
@@ -136,7 +114,7 @@ position: absolute;
 width: 536.79px;
 height: 61px;
 left: 140px;
-top: 442px
+top: 442px;
 }
 
 #navAccent1 {
@@ -177,6 +155,25 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 /* contact page start */
+
+
+#resumeDownloadTxt {
+position: absolute;
+width: 167px;
+height: 26px;
+left: 200px;
+top: 10px;
+
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 47px;
+
+color: #000000;    
+}
+
 #contactInfoTxt {
 position: absolute;
 width: 191px;
@@ -510,4 +507,422 @@ top: 85px;
 }
 .myStoryPage {
     display:none;
+}
+
+.contentBG {
+    display:none;
+    position: absolute;
+    width: 567px;
+    height: 405px;
+    left: 125px;
+    top: 123px;
+    background: #EDEDED;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#pageBackground {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 799px;
+    height: 646px;
+    margin: auto;
+    background: #EBE2E2;
+    opacity: 0.9;
+    box-shadow: inset 0px -3px -3px rgba(0, 0, 0, 0.25);
+}
+
+/*******************************************************************************/
+
+
+@media screen and (max-width: 799px) {
+#pageBackground {
+    display: flex;
+    justify-content: center;
+
+position: relative;
+width: 414px;
+height: 588px;
+
+background: #EDE5E5;
+    opacity: 0.9;
+    box-shadow: inset 0px -3px -3px rgba(0, 0, 0, 0.25);
+}
+
+#myName {
+position: absolute;
+width: 175px;
+height: 49px;
+left: 135px;
+top: 15px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 43px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#portrait {
+display: initial;
+  position: absolute;
+width: 400px;
+height: 262px;
+left: -131px;
+top: 41px;
+
+border: 7px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#navAccent1 {
+position: absolute;
+width: 112px;
+height: 30px;
+left: 10px;
+top: -362px;
+}
+
+#navAccent2 {
+    display: none;
+}
+
+#myStory {
+
+position: absolute;
+width: 102px;
+height: 33px;
+left: -90px;
+top: 50px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 44px;
+
+color: #000000;
+
+
+}
+
+#github {
+
+position: absolute;
+width: 76px;
+height: 33px;
+left: 40px;
+top: 50px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 44px;
+
+color: #000000;
+
+
+}
+
+#contact{
+
+position: absolute;
+width: 45px;
+height: 33px;
+left: 150px;
+top: 50px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 44px;
+
+color: #000000;
+
+
+}
+#flavorTxt {
+ 
+position: absolute;
+width: 356px;
+height: 25px;
+left: 60px;
+top: 120px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 25px;
+
+color: #000000;
+}
+
+
+#contactInfoTxt {
+position: absolute;
+width: 214px;
+height: 41px;
+left: 135px;
+top: 40px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 58px;
+
+color: #000000;
+
+
+}
+
+#reachOut {
+
+position: absolute;
+width: 259px;
+height: 17px;
+left: 120px;
+top: 95px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+
+color: #000000;
+
+
+}
+
+#contactAccent {
+display:none;
+visibility: hidden;
+position: absolute;
+width: 91px;
+height: 39px;
+left: 158.1px;
+top: 251.79px;
+
+
+}
+
+#emailIcon {
+
+position: absolute;
+width: 68.43px;
+height: 67.01px;
+left: 29.79px;
+top: 150px;
+
+
+}
+
+#linkedInIcon {
+position: absolute;
+width: 63px;
+height: 59px;
+left: 174px;
+top: 150px;
+
+
+}
+
+#instaIcon {
+position: absolute;
+width: 64.15px;
+height: 61.3px;
+left: 310.64px;
+top: 150px;
+
+
+}
+
+#resumeDownloadTxt {
+position: absolute;
+width: 167px;
+height: 26px;
+left: 25px;
+top: -60px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 47px;
+
+color: #000000;    
+}
+.contentBG {
+    display:none;
+  position: absolute;
+width: 414px;
+height: 277px;
+left: 0px;
+top: 159px;
+
+background: #EDEDED;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+
+#githubTxt {
+width: 214px;
+height: 41px;
+left: 175px;
+top: 40px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 58px;
+
+color: #000000;
+}
+
+#checkIt {
+position: absolute;
+width: 259px;
+height: 17px;
+left: 100px;
+top: 95px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+
+color: #000000;
+}
+
+#githubAssTxt {
+visibility: hidden;
+position: absolute;
+width: 214px;
+height: 41px;
+left: 103px;
+top: 40px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 58px;
+
+color: #000000;
+}
+
+#theMarvelizerLink {
+position: absolute;
+width: 94px;
+height: 28px;
+left: 210px;
+top: 150px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 28px;
+
+text-align: right;
+
+color: #000000;
+
+
+}
+
+#defendTheCastleLink {
+
+position: absolute;
+width: 113px;
+height: 28px;
+left: 210px;
+top: 210px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 28px;
+
+text-align: right;
+
+color: #000000;
+
+}
+
+#coolGithubIcon {
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 65px;
+top: 145px; 
+}
+
+#githubAccent {
+    visibility: hidden;
+position: absolute;
+width: 110px;
+height: 45px;
+left: 250px;
+top: 85px;
+}
+
+#myStoryTxt {
+width: 214px;
+height: 41px;
+left: 175px;
+top: 10px;
+
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 58px;
+
+color: #000000;
+}
+
+#myStoryPic {
+position: absolute;
+width: 100px;
+height: 35px;
+left: 235px;
+top: 85px;
+visibility: hidden;
+}
+
+#myStoryPara {
+
+
+    position: absolute;
+    width: 340px;
+    height: 200px;
+    left: 45px;
+    top: 70px;
+
+    font-family: 'Amatic SC', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    background-color:  #ededed00;
+}
+
+
 }
