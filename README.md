@@ -9,7 +9,7 @@ Please feel free to contact me with any questions.
 Thanks for visiting my page!
 
 
-<a href="https://drive.google.com/file/d/12cYLulEYWUfpMrEnJbeZGpB5fvvU665Z/view?usp=sharing">Click here to download my resume.</a>
+<a href="https://drive.google.com/file/d/12cYLulEYWUfpMrEnJbeZGpB5fvvU665Z/view?usp=sharing">Click here to see my resume.</a>
 
 <a href="https://beaubarrier.github.io/Beau-Barriers-Portfolio-Page/">Click here to see the deployed site.</a>
 
