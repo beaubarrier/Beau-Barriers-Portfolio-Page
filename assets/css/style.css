@@ -7,14 +7,6 @@ a:hover {
     text-shadow: -2px 2px #b4b4b4;
     padding: 1px 1px;
 }
-/* 
-textarea {
-    outline: none;
-    resize: none;
-    overflow-y:scroll;
-
-
-} */
 
 
 #myName {
@@ -43,7 +35,6 @@ font-weight: normal;
 font-size: 18px;
 line-height: 25px;
 
-/* identical to box height */
 
 color: #000000;
 }
@@ -189,16 +180,19 @@ color: #000000;
 }
 
 #reachOut {
+display: none;
 position: absolute;
-width: 247px;
-height: 27px;
-left: 201px;
-top: 145px;
+width: 416px;
+height: 51px;
+left: 173px;
+top: 180px;
+
 font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 26px;
+font-size: 24px;
+line-height: 51px;
+
 color: #000000;
 }
 
@@ -215,15 +209,15 @@ position: absolute;
 width: 93px;
 height: 96px;
 left: 70px;
-top: 206px;
+top: 256px;
 }
 
 #linkedInIcon {
 position: absolute;
-width: 80px;
-height: 80px;
-left: 250px;
-top: 211px;
+width: 60px;
+height: 60px;
+left: 260px;
+top: 271px;
 }
 
 #instaIcon {
@@ -231,7 +225,7 @@ position: absolute;
 width: 80px;
 height: 80px;
 left: 420px;
-top: 211px;
+top: 261px;
 }
 
 
@@ -240,10 +234,10 @@ display: none;
 position: absolute;
 width: 416px;
 height: 51px;
-left: 53px;
-top: 310px;
+left: 200px;
+top: 180px;
 
-font-family: Amatica SC;
+font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
 font-size: 35px;
@@ -251,26 +245,27 @@ line-height: 51px;
 
 color: #000000;
 
-
 }
+
+
 
 #linkedInTxtDisplay {
 
 display: none;
-
 position: absolute;
 width: 416px;
 height: 51px;
-left: 53px;
-top: 310px;
+left: 90px;
+top: 180px;
 
-font-family: Amatica SC;
+font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
 font-size: 35px;
 line-height: 51px;
 
 color: #000000;
+
 
 
 }
@@ -280,10 +275,10 @@ display: none;
 position: absolute;
 width: 416px;
 height: 51px;
-left: 53px;
-top: 310px;
+left: 173px;
+top: 180px;
 
-font-family: Amatica SC;
+font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
 font-size: 35px;
@@ -291,8 +286,8 @@ line-height: 51px;
 
 color: #000000;
 
-
 }
+
 
 #textDisplay {
     display:none;
@@ -374,12 +369,12 @@ position: absolute;
 width: 402px;
 height: 79px;
 left: 91px;
-top: 151px;
+top: 338px;
 
 font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
-font-size: 19px;
+font-size: 24px;
 line-height: 28px;
 text-align: center;
 
@@ -390,13 +385,13 @@ color: #000000;
 position: absolute;
 width: 302px;
 height: 28px;
-left: 100px;
-top: 358px;
+left: 140px;
+top: 161px;
 
 font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
-font-size: 19px;
+font-size: 24px;
 line-height: 28px;
 /* identical to box height */
 
@@ -432,7 +427,7 @@ position: absolute;
 width: 116px;
 height: 110.91px;
 left: 234px;
-top: 230px;
+top: 210px;
 
 }
 
@@ -467,17 +462,15 @@ top: 45px;
 /* mypage start */
 #myStoryTxt {
 position: absolute;
-width: 97px;
+width: 191px;
 height: 58px;
-left: 239px;
-top: 25px;
-
+left: 230px;
+top: 27px;
 font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
-font-size: 37px;
-line-height: 54px;
-
+font-size: 48px;
+line-height: 58px;
 color: #000000;
 }
 
@@ -520,6 +513,8 @@ top: 85px;
     -webkit-box-shadow: inset 0 0 6px rgba(171, 122, 132, 0.3); 
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    margin-top: 60px;
+    /* margin-bottom: 10px; */
     
 }
     #myStoryPara::-webkit-scrollbar-thumb {
@@ -530,7 +525,7 @@ top: 85px;
 }
 
 #myStoryPara::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(255,0,0,0.4); 
+	background: rgba(255, 255, 255, 0.752); 
 }
 
 
@@ -749,20 +744,20 @@ color: #000000;
 
 #reachOut {
 
+display: initial;
 position: absolute;
-width: 259px;
-height: 17px;
-left: 120px;
-top: 95px;
+width: 416px;
+height: 51px;
+left: 173px;
+top: 180px;
 
 font-family: 'Amatic SC', cursive;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 26px;
+font-size: 35px;
+line-height: 51px;
 
 color: #000000;
-
 
 }
 
@@ -992,3 +987,30 @@ visibility: hidden;
 
 
 }
+
+
+#myStoryLeafRight {
+
+position: absolute;
+width: 87px;
+height: 33px;
+left: 355px;
+top: 45px;
+}
+
+#myStoryLeafLeft {
+position: absolute;
+width: 87px;
+height: 33px;
+left: 133px;
+top: 45px;
+
+}
+#myStoryAccent {
+position: absolute;
+width: 295px;
+height: 22px;
+left: 145px;
+top: 111px;
+}
+
